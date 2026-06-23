@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aquatour</title>
+    <title>Головна</title>
   <link href="css/main.min.css" rel="stylesheet"></head>
   <body>
     <div class="wrapper">
@@ -11,7 +11,7 @@
         <div class="container">
           <div class="row">
             <strong class="logo">
-              <a href="#">
+              <a href="index.html">
                 <img
                   src="images/logo.png"
                   width="200"
@@ -27,8 +27,8 @@
                   <li class="active"><a href="index.html">Головна</a></li>
                   <li><a href="splavu.html">Сплави</a></li>
                   <li><a href="marshrytu.html">Маршрути</a></li>
-                  <li><a href="#">Прокат</a></li>
-                  <li><a href="#">Інформація</a></li>
+                  <li><a href="prokat.html">Прокат</a></li>
+                  <li><a href="informatsiya.html">Інформація</a></li>
                 </ul>
               </nav>
               <ul class="contacts-list">
@@ -73,12 +73,15 @@
             <img
               class="bg-img"
               src="images/bg-img-sm-01.jpg"
-              alt="Група туристів на байдарках під час водної подорожі річкою"
+              alt="image description"
           /></picture>
           <div class="container">
-            <div class="text-block">
-              <h1>Сплави на байдарках</h1>
-              <h2>Прокат байдарок та туристичного спорядження</h2>
+            <div class="text-block" data-aos="fade-up">
+              <strong class="subtitle">Клуб водного туризму - aquatour</strong>
+              <h1>
+                Організація сплавів та
+                <span>прокат туристичного спорядження</span>
+              </h1>
               <p>
                 Зборні групи, індивідуальні виїзди для родини чи компанії та
                 корпоративні походи — організаційні питання беремо на себе.
@@ -86,12 +89,23 @@
             </div>
           </div>
         </section>
-        <div class="services-block section">
+        <section class="information-section section">
           <div class="container">
+            <div class="main-block" data-aos="fade-up">
+              <strong class="subtitle">Інформація</strong>
+              <h2>Актуальні cплави на байдарках</h2>
+              <p>
+                Оберіть відпочинок, який підходить саме вам. Вирушайте у
+                захопливу подорож річками України разом із друзями, родиною або
+                колегами та відкрийте для себе красу природи з нового ракурсу.
+              </p>
+            </div>
             <div
-              class="services-splide splide"
+              class="info-splide splide"
               role="group"
-              aria-label="services carousel"
+              aria-label="info carousel"
+              data-aos="fade-in"
+              data-aos-delay="300"
             >
               <div class="splide__track">
                 <ul class="splide__list">
@@ -100,12 +114,12 @@
                       <div class="card-img">
                         <img
                           class="bg-img"
-                          src="images/kayaking-img-01.jpg"
+                          src="images/splavu-img-01.jpg"
                           alt="image description"
                         />
                       </div>
                       <div class="card-body">
-                        <span class="price">1 350 ₴</span>
+                        <span class="price">від 1 350 ₴</span>
                         <h3>Збірний сплав</h3>
                         <a href="#" class="btn">Детальніше</a>
                       </div>
@@ -116,13 +130,13 @@
                       <div class="card-img">
                         <img
                           class="bg-img"
-                          src="images/kayaking-img-02.jpg"
+                          src="images/splavu-img-02.jpg"
                           alt="image description"
                         />
                       </div>
                       <div class="card-body">
-                        <span class="price">1 400 ₴</span>
                         <h3>Індивідуальний сплав</h3>
+                        <span class="price">від 1 400 ₴</span>
                         <a href="#" class="btn">Детальніше</a>
                       </div>
                     </div>
@@ -132,13 +146,13 @@
                       <div class="card-img">
                         <img
                           class="bg-img"
-                          src="images/kayaking-img-03.jpg"
+                          src="images/splavu-img-03.jpg"
                           alt="image description"
                         />
                       </div>
                       <div class="card-body">
-                        <span class="price">1 500 ₴</span>
                         <h3>Корпоративний сплав</h3>
+                        <span class="price">від 1 500 ₴</span>
                         <a href="#" class="btn">Детальніше</a>
                       </div>
                     </div>
@@ -148,29 +162,29 @@
                       <div class="card-img">
                         <img
                           class="bg-img"
-                          src="images/kayaking-img-01.jpg"
+                          src="images/splavu-img-02.jpg"
                           alt="image description"
                         />
                       </div>
                       <div class="card-body">
-                        <span class="price">1 350 ₴</span>
-                        <h3>Збірний сплав</h3>
-                        <a href="#" class="btn">Детальніше</a>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="splide__slide">
-                    <div class="card">
-                      <div class="card-img">
-                        <img
-                          class="bg-img"
-                          src="images/kayaking-img-02.jpg"
-                          alt="image description"
-                        />
-                      </div>
-                      <div class="card-body">
-                        <span class="price">1 400 ₴</span>
                         <h3>Індивідуальний сплав</h3>
+                        <span class="price">від 1 400 ₴</span>
+                        <a href="#" class="btn">Детальніше</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="card">
+                      <div class="card-img">
+                        <img
+                          class="bg-img"
+                          src="images/splavu-img-03.jpg"
+                          alt="image description"
+                        />
+                      </div>
+                      <div class="card-body">
+                        <h3>Корпоративний сплав</h3>
+                        <span class="price">від 1 500 ₴</span>
                         <a href="#" class="btn">Детальніше</a>
                       </div>
                     </div>
@@ -179,39 +193,34 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
         <section class="about-section section bg-white">
           <div class="container">
             <div class="row">
-              <div class="img-block">
-                <img
-                  src="images/gallery-img-donec.jpg"
-                  alt="image description"
-                />
+              <div class="img-block" data-aos="zoom-in">
+                <img src="images/splavu-img-03.jpg" alt="image description" />
               </div>
-              <div class="text-block">
-                <h2>Сплави на байдарках</h2>
+              <div class="text-block" data-aos="fade-up" data-aos-delay="600">
+                <strong class="subtitle">Про AquaTour</strong>
+                <h2>Ми знаємо, яким має бути відпочинок на воді</h2>
                 <p>
-                  Сплави на байдарках — це чудова можливість уже найближчими
-                  вихідними відпочити від повсякденних справ, робочих буднів і
-                  міської метушні та поринути в атмосферу активного відпочинку,
-                  яскравих вражень і справжнього релаксу.
+                  Уже багато років ми організовуємо сплави на байдарках
+                  мальовничими річками України, допомагаючи людям відкривати
+                  нові маршрути, отримувати яскраві враження та відпочивати від
+                  міської метушні.
                 </p>
                 <p>
-                  Неповторна краса природи, спів птахів, свіже повітря, їжа,
-                  приготовлена на вогнищі, та нові знайомства — усе це чекає на
-                  вас у наших походах.
+                  Ми проводимо збірні, індивідуальні та корпоративні сплави,
+                  забезпечуючи учасників усім необхідним для комфортної та
+                  безпечної подорожі. У нашому розпорядженні власний парк
+                  байдарок, каяків і туристичного спорядження, яке також
+                  доступне для оренди.
                 </p>
                 <p>
-                  Щоб зробити ваш відпочинок максимально комфортним, усі
-                  організаційні питання наша досвідчена команда візьме на себе.
-                </p>
-                <p>
-                  Любителям активного відпочинку, нових знайомств і яскравих
-                  вражень чудово підійдуть сплави у збірних групах. Для
-                  відпочинку в колі друзів або вузькому сімейному колі ми
-                  пропонуємо індивідуальні сплави, а для колективів компаній із
-                  задоволенням організуємо корпоративний сплав.
+                  Беремо на себе всі організаційні питання: підготовку
+                  спорядження, трансфер, інструктаж з техніки безпеки та
+                  супровід на маршруті. Вам залишається лише обрати маршрут,
+                  зібрати гарний настрій і вирушити назустріч пригодам.
                 </p>
               </div>
             </div>
@@ -219,16 +228,15 @@
         </section>
         <section class="services-section section">
           <div class="container">
-            <h2>Наші послуги</h2>
+            <div class="main-block" data-aos="fade-up">
+              <strong class="subtitle">Наші послуги</strong>
+              <h2>Усе необхідне для комфортного відпочинку на воді</h2>
+            </div>
             <ul class="services-list">
-              <li>
-                <div class="img-block">
-                  <img
-                    class="bg-img"
-                    src="images/gallery-img-baidarki.jpg"
-                    alt="image description"
-                  />
-                </div>
+              <li data-aos="zoom-in" data-aos-delay="300">
+                <span class="icon">
+                  <i class="icon-time"></i>
+                </span>
                 <div class="text-block">
                   <h3>Доставка обладнання</h3>
                   <ul>
@@ -236,14 +244,10 @@
                   </ul>
                 </div>
               </li>
-              <li>
-                <div class="img-block">
-                  <img
-                    class="bg-img"
-                    src="images/gallery-img-baidarki.jpg"
-                    alt="image description"
-                  />
-                </div>
+              <li data-aos="zoom-in" data-aos-delay="600">
+                <span class="icon">
+                  <i class="icon-tent"></i>
+                </span>
                 <div class="text-block">
                   <h3>Оренда спорядження</h3>
                   <ul>
@@ -255,14 +259,10 @@
                   </ul>
                 </div>
               </li>
-              <li>
-                <div class="img-block">
-                  <img
-                    class="bg-img"
-                    src="images/gallery-img-baidarki.jpg"
-                    alt="image description"
-                  />
-                </div>
+              <li data-aos="zoom-in" data-aos-delay="900">
+                <span class="icon">
+                  <i class="icon-person"></i>
+                </span>
                 <div class="text-block">
                   <h3>Інструктор та безпека</h3>
                   <ul>
@@ -272,14 +272,10 @@
                   </ul>
                 </div>
               </li>
-              <li>
-                <div class="img-block">
-                  <img
-                    class="bg-img"
-                    src="images/gallery-img-baidarki.jpg"
-                    alt="image description"
-                  />
-                </div>
+              <li data-aos="zoom-in" data-aos-delay="1200">
+                <span class="icon">
+                  <i class="icon-bus"></i>
+                </span>
                 <div class="text-block">
                   <h3>Трансфер</h3>
                   <ul>
@@ -288,30 +284,21 @@
                   </ul>
                 </div>
               </li>
-              <li>
-                <div class="img-block">
-                  <img
-                    class="bg-img"
-                    src="images/gallery-img-baidarki.jpg"
-                    alt="image description"
-                  />
-                </div>
-                <div class="text-block">
-                  <h3>Похідна лазня (баня)</h3>
-                </div>
-              </li>
             </ul>
           </div>
         </section>
         <section class="gallery-section section bg-white">
           <div class="container">
-            <div class="main-block">
+            <div class="main-block" data-aos="fade-up">
+              <strong class="subtitle">Атмосфера походів</strong>
               <h2>Так минають наші дні на воді</h2>
             </div>
             <div
               class="gallery-splide splide"
               role="group"
               aria-label="gallery carousel"
+              data-aos="fade-in"
+              data-aos-delay="300"
             >
               <div class="splide__track">
                 <ul class="splide__list">
@@ -486,13 +473,13 @@
                 </ul>
               </div>
             </div>
-            <div class="btn-holder">
+            <div class="btn-holder" data-aos="fade-up" data-aos-delay="600">
               <a href="#" class="btn btn-outline">Більше фото в Instagram</a>
             </div>
           </div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="footer" data-aos="fade-in" data-aos-delay="400">
         <div class="footer-top">
           <div class="container">
             <div class="row">
@@ -514,10 +501,11 @@
                 <strong class="h5">Меню</strong>
                 <nav class="nav">
                   <ul class="menu">
-                    <li><a href="#">Головна</a></li>
-                    <li><a href="#">Сплави</a></li>
-                    <li><a href="#">Прокат</a></li>
-                    <li><a href="#">Інформація</a></li>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="splavu.html">Сплави</a></li>
+                    <li><a href="marshrytu.html">Маршрути</a></li>
+                    <li><a href="prokat.html">Прокат</a></li>
+                    <li><a href="informatsiya.html">Інформація</a></li>
                   </ul>
                 </nav>
               </div>
